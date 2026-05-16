@@ -13,7 +13,7 @@ for i in range(len(temperaturas)) :
     print(f"Sala {i+1}") # printa o numero da sala usando o indice do loop
 
     for registro in sala :
-        media+=registro # adiciona cada temperatura registrada pra media, que sera dividida por 4 depois
+        media+=registro # adiciona cada temperatura registrada pra media, que sera dividida pelo tamanho da sala depois
         # se a temp registrada for crítica aumenta o número de críticos
         if(registro>=33) :
             criticos+=1
